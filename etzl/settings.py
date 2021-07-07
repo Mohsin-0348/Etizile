@@ -103,7 +103,7 @@ GRAPHQL_JWT = {
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 GRAPHQL_AUTH = {
-    'LOGIN_ALLOWED_FIELDS': ['email', 'username'],
+    'LOGIN_ALLOWED_FIELDS': ['email'],
     'UPDATE_MUTATION_FIELDS': ["username", "email", "first_name", "last_name", "phone_code", "phone", "gender", "photo",
                                "date_of_birth", "nationality", "current_city", "carrier_level", "current_position",
                                "current_company", "salary_expectations", "commitment", "notice_period", "visa_status",
